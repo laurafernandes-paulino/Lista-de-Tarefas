@@ -1,2 +1,13 @@
 # Lista-de-Tarefas
-Lista de Tarefas para auxiliar no dia a dia
+
+Adicionar novas tarefas
+
+ Marcar tarefas como concluídas
+
+ Editar tarefas existentes
+
+ Remover tarefas
+
+ Contador de tarefas pendentes, concluídas e total
+
+ Interface responsiva e estilizada com CSS moderno
