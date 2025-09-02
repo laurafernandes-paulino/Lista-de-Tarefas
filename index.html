@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Lista de Tarefas</h1>
+            <div class="stats">
+                <div class="stat pending" id="pendingCount">📝 0 pendentes</div>
+                <div class="stat completed" id="completedCount">✅ 0 concluídas</div>
+            </div>
+        </div>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            <div class="input-container">
+                <input type="text" id="taskInput" placeholder="Digite uma nova tarefa..." maxlength="200">
+                <button id="addButton" disabled>
+                    <span>➕</span>
+                    Adicionar
+                </button>
+            </div>
+        </div>
+
+        <!-- Tasks Container -->
+        <div class="tasks-container" id="tasksContainer">
+            <div class="empty-state" id="emptyState">
+                <div class="icon">📝</div>
+                <h3>Nenhuma tarefa ainda</h3>
+                <p>Comece adicionando uma tarefa acima!</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer" id="footer" style="display: none;">
+            <p>Total: <span id="totalCount">0</span> tarefa(s)</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
